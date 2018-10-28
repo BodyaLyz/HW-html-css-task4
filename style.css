@@ -1,0 +1,90 @@
+.nav {
+	width: 98%;
+	height: 40px;
+	margin: 0 auto;
+	display: block;
+	background-color: lightblue;
+	
+}
+
+.menu {
+	display:inline;
+	float: left;
+	width: 98%;
+	height: 400px;
+	margin: 1% 1%;
+}
+
+.left {
+	float:left;
+	width: 25%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 1% 0% 0%;
+}
+.news {
+	float:left;
+	width: 48%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 1% 0% 0%;
+}
+
+.right {
+	float:left;
+	width: 25%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 0%;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+.nav {
+	width: 96%;
+	float: left;
+	margin: 0% 1%;
+  }	
+.left {
+	float:left;
+	width: 32%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 1% 0% 0%;
+}	
+.news {
+	float:left;
+	width: 65%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 1% 0% 0%;
+
+  }
+.right {
+    display: none;
+  }
+@media screen and (max-width: 425px) {
+	
+.nav {
+	width: 96%;
+	margin: 0% 1%;
+}
+.nav p {
+	margin: 0 auto;
+}
+.news{
+	
+	width: 98%;
+	height: 100%;
+	background-color: yellow;
+	margin: 1% 1% 0% 0%;
+}
+
+.right, .left {
+	display: none;
+}
+
+}
+}
+
