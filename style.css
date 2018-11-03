@@ -1,5 +1,5 @@
 .nav {
-	width: 96%;
+	width: 98%;
 	height: 40px;
 	margin: 0px 13px;
 	display: block;
@@ -75,8 +75,6 @@ img {
 	float: left;
 }
 
-}
-
 .left {
 	float:left;
 	width: 32%;
@@ -95,6 +93,7 @@ img {
 .right {
     display: none;
   }
+ } 
 @media screen and (max-width: 425px) {
 	
 .nav {
