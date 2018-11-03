@@ -1,10 +1,30 @@
 .nav {
-	width: 98%;
+	width: 96%;
 	height: 40px;
-	margin: 0 auto;
+	margin: 0px 13px;
 	display: block;
 	background-color: lightblue;
-	
+	line-height: 40px;
+
+}
+
+.hamb-right {
+	display: none;
+}
+
+.nav p {
+	display: inline;
+	position: content;
+}
+
+.hamb-left {
+	display: none;
+}
+
+
+img {
+	width: 20px;
+	height: 20px;
 }
 
 .menu {
@@ -13,6 +33,9 @@
 	width: 98%;
 	height: 400px;
 	margin: 1% 1%;
+	text-align: center;
+	vertical-align: center;
+	line-height: 400px;
 }
 
 .left {
@@ -45,7 +68,15 @@
 	width: 96%;
 	float: left;
 	margin: 0% 1%;
-  }	
+  }
+.hamb-left {
+	display: inline;
+	margin: 10px;
+	float: left;
+}
+
+}
+
 .left {
 	float:left;
 	width: 32%;
@@ -69,10 +100,31 @@
 .nav {
 	width: 96%;
 	margin: 0% 1%;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: center;
 }
+
+.hamb-left {
+	display: inline;
+	margin: 10px;
+	float: left;
+}
+
+.hamb-right {
+	display: inline;
+	margin: 10px;
+	float: right;
+}
+
 .nav p {
 	margin: 0 auto;
 }
+
+.hamb-right {
+	display: inline;
+	float: right;
+}	
 .news{
 	
 	width: 98%;
