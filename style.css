@@ -5,7 +5,6 @@
 	display: block;
 	background-color: lightblue;
 	line-height: 40px;
-
 }
 
 .hamb-right {
@@ -45,6 +44,7 @@ img {
 	background-color: yellow;
 	margin: 1% 1% 0% 0%;
 }
+
 .news {
 	float:left;
 	width: 48%;
@@ -64,78 +64,80 @@ img {
 
 @media screen and (max-width: 768px) {
  
-.nav {
-	width: 96%;
-	float: left;
-	margin: 0% 1%;
-  }
-.hamb-left {
-	display: inline;
-	margin: 10px;
-	float: left;
-}
+	.nav {
+		width: 96%;
+		float: left;
+		margin: 0% 1%;
+	}
 
-.left {
-	float:left;
-	width: 32%;
-	height: 100%;
-	background-color: yellow;
-	margin: 1% 1% 0% 0%;
-}	
-.news {
-	float:left;
-	width: 65%;
-	height: 100%;
-	background-color: yellow;
-	margin: 1% 1% 0% 0%;
+	.hamb-left {
+		display: inline;
+		margin: 10px;
+		float: left;
+	}
 
-  }
-.right {
-    display: none;
-  }
+	.left {
+		float:left;
+		width: 32%;
+		height: 100%;
+		background-color: yellow;
+		margin: 1% 1% 0% 0%;
+	}	
+
+	.news {
+		float:left;
+		width: 65%;
+		height: 100%;
+		background-color: yellow;
+		margin: 1% 1% 0% 0%;
+
+	}
+
+	.right {
+	    display: none;
+	}
  } 
 @media screen and (max-width: 425px) {
 	
-.nav {
-	width: 96%;
-	margin: 0% 1%;
-	line-height: 40px;
-	text-align: center;
-	vertical-align: center;
+	.nav {
+		width: 96%;
+		margin: 0% 1%;
+		line-height: 40px;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	.hamb-left {
+		display: inline;
+		margin: 10px;
+		float: left;
+	}
+
+	.hamb-right {
+		display: inline;
+		margin: 10px;
+		float: right;
+	}
+
+	.nav p {
+		margin: 0 auto;
+	}
+
+	.hamb-right {
+		display: inline;
+		float: right;
+	}
+		
+	.news{	
+		width: 98%;
+		height: 100%;
+		background-color: yellow;
+		margin: 1% 1% 0% 0%;
+	}
+
+	.right, .left {
+		display: none;
+	}
 }
 
-.hamb-left {
-	display: inline;
-	margin: 10px;
-	float: left;
-}
-
-.hamb-right {
-	display: inline;
-	margin: 10px;
-	float: right;
-}
-
-.nav p {
-	margin: 0 auto;
-}
-
-.hamb-right {
-	display: inline;
-	float: right;
-}	
-.news{
-	
-	width: 98%;
-	height: 100%;
-	background-color: yellow;
-	margin: 1% 1% 0% 0%;
-}
-
-.right, .left {
-	display: none;
-}
-
-}
-}
 
